@@ -154,7 +154,65 @@ nav .right a span {
   font-size: 18px;
 }
 
-/* SECTION 3: Projects */
+/* SECTION 3: Experience */
+.experience-section {
+  padding: 0 50px;
+  margin-bottom: 100px;
+}
+
+.experience-section h2 {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.experience {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 25px;
+  border: 1px solid #d3d3d3;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.experience-header h3 {
+  font-size: 22px;
+  color: var(--text-color);
+}
+
+.experience-header .date {
+  font-weight: 600;
+  color: var(--link-color);
+}
+
+.company {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: var(--text-color);
+}
+
+.experience-points {
+  margin-left: 20px;
+}
+
+.experience-points li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+/* SECTION 4: Projects */
 .projects-section {
   padding: 0 50px;
   margin-bottom: 100px;
@@ -235,7 +293,7 @@ nav .right a span {
   border-color: var(--text-color);
 }
 
-/* SECTION 4: Contact */
+/* SECTION 5: Contact */
 .contact-section {
   padding: 0 50px;
   margin-bottom: 100px;
@@ -304,7 +362,14 @@ nav .right a span {
     width: 300px;
   }
 
-  /* SECTION 3: Projects */
+  /* SECTION 3: Experience */
+  .experience-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  /* SECTION 4: Projects */
   .projects-section {
     text-align: left;
   }
@@ -313,7 +378,7 @@ nav .right a span {
     flex-direction: column;
   }
 
-  /* SECTION 4: Contact */
+  /* SECTION 5: Contact */
   .contact-section .group {
     flex-direction: column;
   }
@@ -357,12 +422,17 @@ nav .right a span {
     font-size: 16px;
   }
 
-  /* SECTION 3: Projects */
+  /* SECTION 3: Experience */
+  .experience-section {
+    padding: 0 20px;
+  }
+
+  /* SECTION 4: Projects */
   .projects-section {
     padding: 0 20px;
   }
 
-  /* SECTION 4: Contact */
+  /* SECTION 5: Contact */
   .contact-section {
     padding: 0 20px;
   }
