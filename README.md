@@ -30,4 +30,4 @@ A modern, responsive portfolio website built with HTML and CSS to showcase my pr
 
 ## 🌐 Live Demo
 
-[https://calebmulugeta-ui.github.io/Portfolio-Website/]
+https://calebmulugeta-ui.github.io/Portfolio-Website/
