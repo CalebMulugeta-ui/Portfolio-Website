@@ -20,18 +20,6 @@ A modern, responsive portfolio website built with HTML and CSS to showcase my pr
 - **Google Fonts** - Poppins font family for typography
 - **Responsive Design** - Mobile-first approach
 
-## 📁 Project Structure
-portfolio/
-├── index.html # Main HTML file
-├── styles.css # All styling and responsive design
-├── Caleb'sResume.pdf # Downloadable resume
-└── images/ # Project images and assets
-├── headshot.jpeg
-├── brain-tumor-classifier.jpg
-├── autopark.png
-└── technology-logos/
-
-
 ## 🎯 Sections
 
 - **Hero** - Introduction and quick links
