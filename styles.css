@@ -97,19 +97,6 @@ nav .right a span {
   border: 2px solid var(--text-color);
 }
 
-/* Remove the special styling for the resume download button */
-.hero-section .text .links a.resume-download {
-  background-color: transparent;
-  color: var(--link-color);
-  border-color: var(--link-color);
-}
-
-.hero-section .text .links a.resume-download:hover {
-  background-color: transparent;
-  border-color: var(--text-color);
-  color: var(--text-color);
-}
-
 .hero-section .headshot {
   flex: 2;
   display: flex;
